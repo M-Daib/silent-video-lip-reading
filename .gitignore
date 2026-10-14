@@ -1,0 +1,188 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a temporary
+#  directory before injection.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+media
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_startup/
+etc/profile
+static/
+```
+
+# pyenv
+.python-version
+
+# pipenv
+#   According to the pipenv official documentation (https://pipenv.pypa.io/en/latest/),
+#   The PipfileLock should not be tracked by version control (https://github.com/pypa/pipenv/issues/3731).
+Pipfile.lock
+
+# PEP 582; used by e.g. github.com/david-pickett/animal-resources
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+celeryschedule.schedules
+
+# Windows
+Thumbs.db
+Ehthumbs.desktop
+Desktop.ini
+
+# Python
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.egg-info
+*.egg
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+media
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.*
+! .env.example
+
+# IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+*~
+
+# Model weights and large data (if we don't want to version control them)
+# Uncomment the following lines if you want to exclude model weights and datasets
+# temp_repos/LipNet-PyTorch/pretrain/*.pt
+# data/
+# example_data/
+# grid_corpus/
+
+# Logs
+logs/
+*.log
+
+# TensorBoard
+runs/

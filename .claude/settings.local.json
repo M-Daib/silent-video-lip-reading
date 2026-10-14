@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python test_app.py)",
+      "Bash(cd /c/Users/HP/Downloads\\\\Lep && ls -la)",
+      "Read(//c/Users/HP/**)",
+      "Bash(python -c \"import pptx\")",
+      "Bash(python create_presentation.py)",
+      "Bash(git init *)",
+      "Bash(env)",
+      "Bash(git add *)",
+      "Bash(git reset *)",
+      "Bash(git rm *)",
+      "Read(//c/Users/HP/DownloadsLep/temp_repos/**)",
+      "Bash(rm -rf .git)",
+      "Read(//c/Users/HP/Downloads/Lep/temp_repos/LipNet-PyTorch/**)",
+      "Bash(cd /c/Users/HP/Downloads/Lep)",
+      "Read(//c/Users/HP/Downloads/Lep/**)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\HP\\Downloads\\Lep\\temp_repos\\LipNet-PyTorch"
+    ]
+  }
+}

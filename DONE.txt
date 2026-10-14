@@ -1,0 +1,25 @@
+Project execution completed as of 2026-10-14.
+
+See reports/final_execution_report.md for a detailed summary of what was accomplished, what works, what limitations remain, and how to reproduce the results.
+
+Key achievements:
+- Environment set up with PyTorch and essential libraries.
+- VIPL LipNet-PyTorch implementation integrated and tested.
+- Example data prepared from GRID corpus examples.
+- Working pipeline from video to text prediction (lip extraction -> model inference -> CTC decoding).
+- Gradio demo application created for interactive lip-reading prediction.
+- Comprehensive documentation created.
+
+Known limitations:
+- Lip extraction accuracy is the main bottleneck for meaningful predictions.
+- Full GRID corpus not downloaded due to SSL issues on Windows.
+- GPU utilization not working (falling back to CPU).
+
+Next steps to improve:
+1. Obtain full GRID corpus (via WSL2, Linux VM, or manual download).
+2. Replace heuristic lip extractor with MediaPipe-based extractor.
+3. Enable GPU training by fixing CUDA PyTorch installation.
+4. Conduct proper training and evaluation on the full dataset.
+5. Enhance demo with visualization and confidence scores.
+
+The project is ready for further development and experimentation.
